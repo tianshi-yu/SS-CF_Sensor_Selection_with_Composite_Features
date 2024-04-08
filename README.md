@@ -6,10 +6,11 @@
  - Run *Main_SSCF.m* for an example.
  - Sensor selection function: *runSSCF.m*. 
 
-## Example Data
- * Able-bodied subjects perform forward reaching to spatial target points with their upper limb. 
+## About Dataset
+ * dataset.mat contains one non-disabled subjects perform forward reaching to spatial target points with their upper limb. 
  * The goal is to select $q$ number of sensors that can best differentiate the three elbow poses required by the spatial target points. 
  * Upper limb and upper body joint kinematics and sEMG signals are recoreded with features extracted.
+ * Full dataset of 10 subjects available at: [https://doi.org/10.26188/23294693](https://doi.org/10.26188/23294693).
 
 ## Acknowledgement
 We would appreciate your acknowledgement by citing our paper:
