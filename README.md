@@ -2,7 +2,7 @@
  Matlab implementation of the sensor selection algorithm in the paper:
  * [T. Yu, A. Mohammadi, Y. Tan, P. Choong and D. Oetomo, "Sensor Selection With Composite Features in Identifying User-Intended Poses for Human-Prosthetic Interfaces," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1732-1742, 2023, doi: 10.1109/TNSRE.2023.3258225.](https://ieeexplore.ieee.org/document/10073539)  
 
-## Quick start
+## Quick Start
  - Run *Main_SSCF.m* for an example.
  - Sensor selection function: *runSSCF.m*. 
 
