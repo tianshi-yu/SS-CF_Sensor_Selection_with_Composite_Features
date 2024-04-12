@@ -21,7 +21,6 @@ author={Yu, Tianshi and Mohammadi, Alireza and Tan, Ying and Choong, Peter and O
 title={Sensor Selection With Composite Features in Identifying User-Intended Poses for Human-Prosthetic Interfaces}, 
 year={2023},
 volume={31},
-number={},
 pages={1732-1742},
 doi={10.1109/TNSRE.2023.3258225}}
 ``` 
