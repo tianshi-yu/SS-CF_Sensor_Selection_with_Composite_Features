@@ -1,5 +1,5 @@
 # Sensor Selection with Composite Features (SS-CF)
- Matlab implementation of the sensor selection algorithm in paper:
+ Matlab implementation of the sensor selection algorithm in the paper:
  * [T. Yu, A. Mohammadi, Y. Tan, P. Choong and D. Oetomo, "Sensor Selection With Composite Features in Identifying User-Intended Poses for Human-Prosthetic Interfaces," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1732-1742, 2023, doi: 10.1109/TNSRE.2023.3258225.](https://ieeexplore.ieee.org/document/10073539)  
 
 ## Quick start
@@ -7,9 +7,9 @@
  - Sensor selection function: *runSSCF.m*. 
 
 ## About Dataset
- * dataset.mat contains one non-disabled subjects perform forward reaching to spatial target points with their upper limb. 
+ * dataset.mat contains one non-disabled subject performing forward reaching to spatial target points with their upper limb. 
  * The goal is to select $q$ number of sensors that can best differentiate the three elbow poses required by the spatial target points. 
- * Upper limb and upper body joint kinematics and sEMG signals are recoreded with features extracted.
+ * Upper limb and upper body joint kinematics and sEMG signals are recorded with features extracted.
  * Full dataset of 10 subjects available at: [https://doi.org/10.26188/23294693](https://doi.org/10.26188/23294693).
 
 ## Acknowledgement
