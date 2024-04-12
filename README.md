@@ -12,7 +12,7 @@
  * Upper limb and upper body joint kinematics and sEMG signals are recorded with features extracted.
  * Full dataset of 10 subjects available at: [https://doi.org/10.26188/23294693](https://doi.org/10.26188/23294693).
 
-## Acknowledgement
+## Citation
 We would appreciate your acknowledgement by citing our paper:
 
 ``` 
