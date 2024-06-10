@@ -96,25 +96,3 @@ function out = pgdOpt(X,Y,A,alpha,lambda,wi,varargin)
     out = sol;
 end
 
-
-
-
-
-
-
-%             G = (wOld - wNew)/step;
-%             temp1 = norm(Y-X*(wOld-step*G),2)^2/(2*n);
-%             temp2 = norm(Y-X*wOld,2)^2/(2*n) - step*((1/n)*X'*(X*wOld - Y))'*G + 0.5*step*norm(G,2)^2;
-
-%         wOld = w;
-%         wNew = w;
-%         for i = 1:p
-%            I = logical(A(:,i)); % feature index of current sensor group
-%            % Gradient update
-%            gd = (1/n).*X(:,I)'* (X*wOld - Y);
-%            r = wOld(I) - step .* gd;
-%            % Proximal update 
-%            st =  softTh(r,alpha*step*lambdas);
-%            wNew(I) = plusSgn(1 - ( ((1-alpha)*step*lambdas) / norm(st,2)) ) * st;
-%         end
-%         w = wNew + ((t-2)/(t+1))*(wNew-wOld);
